@@ -1,0 +1,45 @@
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main{
+    background-color: crimson;
+    width: 74%;
+}
+
+.side{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: cyan;
+    width: 25%;
+}
+
+.bigbox{
+    background-color: darkorchid;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.box{
+    background-color: darkorchid;
+    margin-top: 10px;
+}
