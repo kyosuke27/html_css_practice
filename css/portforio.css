@@ -1,0 +1,22 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color: dimgray;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: dimgray;
+}
+
+.introduce{
+    height: 100px;
+    background-color: dimgray;
+    margin: 0;
+}
+
+.purpose{
+    height: 100px;
+    background-color: dimgray;
+}
