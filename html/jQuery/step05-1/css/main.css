@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*
+ * Slideshow
+ */
+.slideshow {
+    overflow: hidden;/*overflow->要素のボックスからはみ出た時の処理 hidden->はみ出た部分は非表示*/
+    position: relative;
+    min-width: 960px;
+    height: 465px;
+}
+.slideshow img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+}
+
+/* JavsScript 無効時 */
+.no-js .slideshow img:first-child {
+    display: inline;
+}
